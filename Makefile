@@ -1,6 +1,6 @@
 CFLAGS += -Wall -Wextra -Wfatal-errors -g3
 CFLAGS += -Werror=vla -Werror=shadow -Wno-unused -Wno-unused-parameter
-CFLAGS += -fsanitize=address -fsanitize=undefined
+# CFLAGS += -fsanitize=address -fsanitize=undefined
 
 all: parta partb partc
 
